@@ -5,9 +5,9 @@
 		<div class="selfie-footer-bottom">
 			<div class="homepage-container-design-inner">
         <div class="vc_col-sm-6 selfie-copyrights item_left">
-					<?php echo esc_attr(selfie_get_option_value('footer_phone')); ?>
+					<a href="#">Politicas de privaciadad</a> / <a href="#">From ADV P2art</a>
 				</div>
-				<div class="vc_col-sm-6 selfie-copyrights item_right">
+				<div class="vc_col-sm-5 selfie-copyrights item_right">
 				<?php if(selfie_get_option_value('select_copyrights_columns') == 'On') { ?>
 					<?php
 						$allowed_html = array(
@@ -23,6 +23,9 @@
 					?>
 					<?php echo $footerText; ?>
 				<?php } ?>
+				</div>
+				<div class="vc_col-sm-1 selfie-copyrights item_left">
+				T F
 				</div>
 
 			</div>
