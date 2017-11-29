@@ -315,13 +315,13 @@
     z-index: 0;
 }
 .inner {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
     height: 100%;
 }
 .container {
-    width: 90% !important;
+    width: 98% !important;
 }
 #navigation-sticky {
     padding: 0 !important;
@@ -426,6 +426,18 @@ footer {
 .vc_col-sm-6.selfie-copyrights {
     border: 0px solid #333333;
     text-align: center;
+}
+
+/*Perfeccionando ajustes*/
+.logo a img {
+    max-height: 75px;
+    margin-top: -5px;
+}
+
+
+/*Tipo de letra para todo el tema*/
+.header .heading, input, textarea, .wpb_wrapper, .wpb_wrapper p, .wpb_wrapper p span:not(.fa), .wpb_wrapper span:not(.fa), .wpb_wrapper span p, .ui-widget, body {
+    font-family: 'Raleway', sans-serif !important;
 } 
 	
 	
