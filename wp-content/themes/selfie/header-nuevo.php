@@ -82,7 +82,7 @@
 					<!-- Navigation Menu -->
 					<div class="nav-menu">
 						<div class="nav selfie-nav">
-              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              <span style="font-size: 16px;cursor:pointer;right: 100px;position: relative;" onclick="openNav()"><img src="http://localhost/alkanza/wp-content/uploads/2017/11/menu.png"> Menú</span>
 						</div>
 					</div>
 					<!-- End Navigation Menu -->
