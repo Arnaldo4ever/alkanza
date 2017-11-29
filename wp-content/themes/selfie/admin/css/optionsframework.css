@@ -1,0 +1,580 @@
+/* Options Framework Admin Styles */
+
+#optionsframework-wrap .updated {
+	max-width:764px;
+	margin-bottom:0px !important;
+}
+#optionsframework-wrap #optionsframework {
+	position:relative;
+	z-index: 0;
+	width:70%;
+	/*max-width:780px;*/
+	background:none repeat scroll 0 0 #FFF;
+	float:left;
+	border:1px solid #c9c9c9;
+	margin-bottom:0 !important;
+}
+#optionsframework-wrap #optionsframework h3 {
+	cursor: default;
+}
+#optionsframework-wrap #optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+#optionsframework-wrap #optionsframework .section {
+	padding:10px 10px 0;
+}
+#optionsframework-wrap #optionsframework .group {
+	padding-bottom:40px;
+}
+#optionsframework-wrap #optionsframework .section .heading {
+	padding:10px 0px;
+	margin:0;
+	/*border-bottom: 1px solid #dfdfdf;*/
+}
+#optionsframework-wrap #optionsframework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#optionsframework-wrap #optionsframework .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 11px;
+	line-height:16px;
+	color: #777;
+}
+#optionsframework-wrap #optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#optionsframework-wrap #optionsframework .section-checkbox .explain {
+	max-width:94%;
+}
+#optionsframework-wrap #optionsframework .controls select, #optionsframework-wrap #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:410px;
+	max-width:410px;
+}
+#optionsframework-wrap #optionsframework .section-radio label, #optionsframework-wrap #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#optionsframework-wrap #optionsframework input.checkbox, #optionsframework-wrap #optionsframework input.of-radio {
+	width: 30px;
+	margin-top:2px;
+	float:left;
+	clear:both;
+}
+#optionsframework-wrap #optionsframework .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#optionsframework-wrap #optionsframework .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#optionsframework-wrap #optionsframework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+#optionsframework-wrap #optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#optionsframework-wrap #optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#optionsframework-wrap #optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#optionsframework-wrap #optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#optionsframework-wrap #optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#optionsframework-wrap #optionsframework .hide {
+	display:none;
+}
+#optionsframework-wrap #optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#optionsframework-wrap #optionsframework .mini .controls select, #optionsframework-wrap #optionsframework .section .mini .controls {
+	width: 140px;
+}
+#optionsframework-wrap #optionsframework .mini .controls input, #optionsframework-wrap #optionsframework .mini .controls {
+	min-width:392px;
+	width: 140px;
+}
+#optionsframework-wrap #optionsframework .mini .explain {
+	/*max-width:74%;*/
+}
+
+/* Editor */
+
+#optionsframework-wrap #optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework-wrap #optionsframework .controls input.upload {
+	width:80%;
+}
+#optionsframework-wrap #optionsframework .controls input.upload_button {
+	float:right;
+	border-color:#BBBBBB;
+	cursor:pointer;
+}
+#optionsframework-wrap #optionsframework .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#optionsframework-wrap #optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#optionsframework-wrap #optionsframework .screenshot img {
+	background:#FAFAFA;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#optionsframework-wrap #optionsframework .screenshot .mlu_remove {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#optionsframework-wrap #optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#optionsframework-wrap #optionsframework .screenshot .no_image .mlu_remove {
+	bottom: 0px;
+}
+#optionsframework-wrap #optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-wrap #optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	/*background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);*/
+	/*background:linear-gradient(to top, black, #999999) repeat scroll 0 0 black;*/
+	background:url("../images/head-bg.png") repeat-x scroll 0 0 #E8E8E8 !important;
+}
+#optionsframework-wrap #optionsframework .button-primary {
+	float:right;
+}
+#optionsframework-wrap #optionsframework .section:after {
+	content: "";
+	display: table;
+}
+#optionsframework-wrap #optionsframework .section:after {
+	clear: both;
+}
+
+
+#optionsframework-wrap #section-homepage_colone_chkbx h4,
+#optionsframework-wrap #section-homepage_coltwo_chkbx h4,
+#optionsframework-wrap #section-homepage_colthree_chkbx h4,
+#optionsframework-wrap #section-footer_colone_chkbx h4,
+#optionsframework-wrap #section-footer_coltwo_chkbx h4,
+#optionsframework-wrap #section-footer_colthree_chkbx h4,
+#optionsframework-wrap #section-footer_colfour_chkbx h4,
+#optionsframework-wrap #section-homepage_featuredcontent_title h4,
+#optionsframework-wrap #section-homepage_featured_colone_chkbx h4,
+#optionsframework-wrap #section-homepage_featured_coltwo_chkbx h4,
+#optionsframework-wrap #section-homepage_featured_colthree_chkbx h4,
+#optionsframework-wrap #section-homepage_featured_colfour_chkbx h4,
+#optionsframework-wrap #section-homepage_threerows_title h4
+{
+	display:none;
+}
+
+#optionsframework-wrap #section-homepage_colone_readmore,
+#optionsframework-wrap #section-homepage_coltwo_readmore,
+#optionsframework-wrap #section-homepage_colthree_readmore
+{
+	margin-bottom:50px;
+}
+
+
+#optionsframework-wrap #optionsframework #section-footer_colone_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-footer_coltwo_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-footer_colthree_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-footer_colfour_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-footer_colfour_description .heading,
+#optionsframework-wrap#optionsframework #section-footer_colfour_title .heading,
+#optionsframework-wrap #optionsframework #section-footer_colthree_description .heading,
+#optionsframework-wrap #optionsframework #section-footer_colthree_title .heading,
+#optionsframework-wrap #optionsframework #section-footer_coltwo_title .heading,
+#optionsframework-wrap #optionsframework #section-footer_coltwo_description .heading,
+#optionsframework-wrap #optionsframework #section-footer_colone_title .heading,
+#optionsframework-wrap #optionsframework #section-footer_colone_description .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colone_description .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colone_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colone_readmore .heading,
+#optionsframework-wrap #optionsframework #section-homepage_coltwo_description .heading,
+#optionsframework-wrap #optionsframework #section-homepage_coltwo_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_coltwo_readmore .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colthree_description .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colthree_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colthree_readmore .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_one .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_two .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_three .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_four .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_one_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_two_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_three_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_four_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_one_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_two_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_three_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_four_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_one_link .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_two_link .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_three_link .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredimage_four_link .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowone_icon .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowtwo_icon .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowthree_icon .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowone_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowtwo_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowthree_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowone_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowtwo_desc .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowthree_desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img1-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img1-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img1-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img2-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img2-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img2-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img3-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img3-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img3-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img4-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img4-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img4-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img5-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img5-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img5-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img6-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img6-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img6-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img7-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img7-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img7-link .heading,
+#optionsframework-wrap #optionsframework #section-slider-img8-title .heading,
+#optionsframework-wrap #optionsframework #section-slider-img8-desc .heading,
+#optionsframework-wrap #optionsframework #section-slider-img8-link .heading,
+#optionsframework-wrap #optionsframework #section-logofavicon_title .heading,
+#optionsframework-wrap #optionsframework #section-homepagerecentposts_title .heading,
+#optionsframework-wrap #optionsframework #section-homepageportfoliotitle_title .heading,
+#optionsframework-wrap #optionsframework #section-sitetefc_title .heading,
+#optionsframework-wrap #optionsframework #section-socialmedia_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colone_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_coltwo_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_colthree_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featuredcontent_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_textarea_section_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featured_colone_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featured_coltwo_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featured_colthree_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_featured_colfour_chkbx .heading,
+#optionsframework-wrap #optionsframework #section-homepage_threerows_title .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowone_chkbox .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowtwo_chkbox .heading,
+#optionsframework-wrap #optionsframework #section-homepage_rowthree_chkbox .heading,
+#optionsframework-wrap #optionsframework #section-homepage_textarea_title .heading
+{
+	border:0px solid black;
+	margin-bottom:0;
+}
+
+#optionsframework-wrap #section-footer_colfour_heading h4,
+#optionsframework-wrap #section-footer_colthree_heading h4,
+#optionsframework-wrap #section-footer_coltwo_heading h4,
+#optionsframework-wrap #section-footer_colone_heading h4,
+#optionsframework-wrap #section-homepage_colone_heading h4,
+#optionsframework-wrap #section-homepage_coltwo_heading h4,
+#optionsframework-wrap #section-homepage_colthree_heading h4,
+#optionsframework-wrap #section-example_colorpicker h4,
+#optionsframework-wrap #section-homepage_featured_title h4,
+#optionsframework-wrap #section-homepage_textarea_title h4,
+#optionsframework-wrap #section-homepage_featured_colone h4,
+#optionsframework-wrap #section-homepage_featured_coltwo h4,
+#optionsframework-wrap #section-homepage_featured_colthree h4,
+#optionsframework-wrap #section-homepage_featured_colfour h4,
+#optionsframework-wrap #section-homepage_rows_title h4,
+#optionsframework-wrap #section-slider_1 h4,
+#optionsframework-wrap #section-slider_2 h4,
+#optionsframework-wrap #section-slider_3 h4,
+#optionsframework-wrap #section-slider_4 h4,
+#optionsframework-wrap #section-slider_5 h4,
+#optionsframework-wrap #section-slider_6 h4,
+#optionsframework-wrap #section-slider_7 h4,
+#optionsframework-wrap #section-slider_8 h4,
+#optionsframework-wrap #section-select_slider h4,
+#optionsframework-wrap #section-logofavicon_title h4,
+#optionsframework-wrap #section-homepagerecentposts_title h4,
+#optionsframework-wrap #section-homepageportfoliotitle_title h4,
+#optionsframework-wrap #section-sitetefc_title h4,
+#optionsframework-wrap #section-socialmedia_title h4
+{
+	font-size:20px;
+}
+
+
+#optionsframework-wrap h2.nav-tab-wrapper .nav-tab
+{ 
+font-size:13px;
+}
+
+#optionsframework-wrap #section-homepage_featuredimage_one_link,
+#optionsframework-wrap #section-homepage_featuredimage_two_link,
+#optionsframework-wrap #section-homepage_featuredimage_three_link,
+#optionsframework-wrap #section-homepage_featuredimage_four_link,
+#optionsframework-wrap #section-homepage_featuredcontent_title,
+#optionsframework-wrap #section-homepage_threerows_title,
+#optionsframework-wrap #section-homepage_rowone_desc,
+#optionsframework-wrap #section-homepage_rowtwo_desc,
+#optionsframework-wrap #section-homepage_rowthree_desc,
+#optionsframework-wrap #section-slider-img1-link,
+#optionsframework-wrap #section-slider-img2-link,
+#optionsframework-wrap #section-slider-img3-link,
+#optionsframework-wrap #section-slider-img4-link,
+#optionsframework-wrap #section-slider-img5-link,
+#optionsframework-wrap #section-slider-img6-link,
+#optionsframework-wrap #section-slider-img7-link,
+#optionsframework-wrap #section-slider-img8-link
+{
+	margin-bottom:50px;
+}
+
+
+#optionsframework-wrap #optionsframework-nav{
+	float:left;
+	border:1px solid #DFDFDF;
+	border-radius:3px;
+	width:200px;
+	background:url("../images/panel-bg.png");
+	border:none;
+	overflow:hidden;
+}
+
+#optionsframework-wrap  .optionsframework-logo
+{
+	padding:20px;
+	text-align:center;
+}
+
+#optionsframework-wrap  .optionsframework-logo p{margin:10px 5px;}
+
+#optionsframework-wrap  .nav-tab{
+	padding:10px 0;
+	/*background:linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;*/
+	height:30px;
+	float:left;
+	clear:both;
+	/*text-align:center;*/
+	width:100%;
+	line-height:27px;
+	font-size:12px;
+	font-family:sans-serif;
+}
+#optionsframework-wrap  #optionsframework-nav .nav-tab{border:none !important;}
+#optionsframework-wrap  #css_text{width:100% !important; min-height:600px !important;}
+
+#optionsframework-wrap  .postbox h3{color:#fff;}
+
+#optionsframework-wrap  .js .postbox h3:hover{color:#fff;}
+
+#optionsframework-wrap  #optionsframework .controls #column2_text,
+#optionsframework-wrap  #optionsframework .controls #column1_text{width:250px; max-width:250px; height:200px; max-height:300px; min-height:200px;}
+
+#optionsframework-wrap #optionsframework #section-column2_text .controls,
+#optionsframework-wrap #optionsframework #section-column1_text .controls{width:30%;min-width:250px;}
+
+
+#optionsframework-wrap #optionsframework .mini .controls #col_one_link,
+#optionsframework-wrap #optionsframework .mini .controls #col_two_link,
+#optionsframework-wrap #optionsframework .mini .controls #col_three_link,
+#optionsframework-wrap #optionsframework .mini .controls #col_three_title,
+#optionsframework-wrap #optionsframework .mini .controls #col_two_title,
+#optionsframework-wrap #optionsframework .mini .controls #col_one_title{width:405px;}
+
+#optionsframework-wrap #optionsframework #section-col_one_link.section,
+#optionsframework-wrap #optionsframework #section-col_two_link.section,
+#optionsframework-wrap #optionsframework #section-col_three_link.section{padding-top:0;}
+
+#optionsframework-wrap #optionsframework #section-col_three_title.section.section-text.mini .controls,
+#optionsframework-wrap #optionsframework #section-col_two_title.section.section-text.mini .controls,
+#optionsframework-wrap #optionsframework #section-col_one_title.section.section-text.mini .controls{padding-right:20%;}
+
+#optionsframework-wrap #optionsframework .controls #col_three_desc,
+#optionsframework-wrap #optionsframework .controls #col_two_desc,
+#optionsframework-wrap #optionsframework .controls #col_one_desc{width:405px; max-width:405px;}
+
+#optionsframework-wrap #of-option-logofavicon66-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -539px;}
+#optionsframework-wrap #of-option-homepage13-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -491px;}
+#optionsframework-wrap #of-option-footer92-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -192px;}
+#optionsframework-wrap #of-option-sitestyling1-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -642px;}
+#optionsframework-wrap #of-option-socialmedia81-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -384px;}
+#optionsframework-wrap #of-option-siteinfo75-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -150px;}
+#optionsframework-wrap #of-option-menuheader17-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -236px;}
+#optionsframework-wrap #of-option-headings41-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -282px;}
+#optionsframework-wrap #of-option-contactpage109-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -331px;}
+#optionsframework-wrap #of-option-404page111-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -8px;}
+#optionsframework-wrap #of-option-portfolio115-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -590px;}
+#optionsframework-wrap #of-option-customcss120-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -102px;}
+#optionsframework-wrap #of-option-comingsoonpage122-tab{background:url("../images/AdminSpirit.png") no-repeat scroll -22px -55px;}
+
+
+
+#optionsframework-wrap .nav-tab-active{background-color:#aaaaaa !important; color:#ffffff;}
+
+#optionsframework-wrap  a.nav-tab:hover{color:black;}
+
+#optionsframework-wrap #icon-themes{background-position:-135px -5px;}
+
+#optionsframework-wrap h4.heading{color:#6C6C6C; font-size:13px;}
+
+#optionsframework-wrap #optionsframework .section.section-text.mini .controls{padding-right:6%;}
+
+#optionsframework-wrap #optionsframework #section-col_one_link .controls,
+#optionsframework-wrap #optionsframework #section-col_two_link .controls,
+#optionsframework-wrap #optionsframework #section-col_three_link .controls{padding-right:20%;}
+
+#optionsframework-wrap #optionsframework .mini .controls input, #optionsframework .mini .controls{width:365px; min-width:365px;}
+
+#optionsframework-wrap #optionsframework .controls select, #optionsframework .controls textarea{width:365px;}
+
+#optionsframework-wrap #section-theme_site_title, #optionsframework-wrap #section-theme_site_tagline, #optionsframework-wrap #section-theme_site_phone, #optionsframework-wrap #section-theme_site_email,
+#optionsframework-wrap #section-layerslider_shortcode, #optionsframework-wrap #section-homepage_recentposts_chkbox, #section-homepage_portfolio_desc, #optionsframework-wrap #section-homepage_textarea_chkbox, #optionsframework-wrap #section-homepage_textarea_section_title,
+#optionsframework-wrap #section-sitelayout , #optionsframework-wrap #section-theme_color , #optionsframework-wrap #section-theme_logo , #optionsframework-wrap #section-theme_favicon , #optionsframework-wrap #section-select_font{margin-bottom:20px;}
+
+
+#optionsframework-wrap #section-h2_font,
+#optionsframework-wrap #section-h3_font,
+#optionsframework-wrap #section-h4_font,
+#optionsframework-wrap #section-h5_font,
+#optionsframework-wrap #section-h6_font{margin-top:100px;}
+
+#optionsframework-wrap #section-menuheadergeneraloptions h4.heading,
+#optionsframework-wrap #section-menuheaderstyletwooptions h4.heading,
+#optionsframework-wrap #section-menuheaderstyleoneoptions h4.heading{border-bottom:none !important; text-align:center;}
+
+#optionsframework-wrap #section-menuheadergeneraloptions,
+#optionsframework-wrap #section-menuheaderstyletwooptions,
+#optionsframework-wrap #section-menuheaderstyleoneoptions{margin-top:80px;}
+
+
+
+#optionsframework-wrap #of-option-404page112 #wp-blank_page_text-editor-tools #blank_page_text-tmce{display:none !important;}
+#optionsframework-wrap #of-option-404page112 .wp-editor-area{visibility:visible !important;}
+
+#optionsframework-wrap #of-option-contactpage110 #wp-contact_text-wrap #wp-contact_text-editor-tools #contact_text-tmce{display:none !important;}
+#optionsframework-wrap #of-option-contactpage110 .wp-editor-area{visibility:visible !important;}
+
+#optionsframework-wrap .group h3:hover{color:#666666 !important;}
+#optionsframework-wrap .group h3{padding:44px 10px; font-weight:bold; color:#666666; font-size:23px;}
+
+#optionsframework-wrap .widget .widget-top, #optionsframework-wrap .postbox h3, #optionsframework-wrap .stuffbox h3, #optionsframework-wrap .widefat thead tr th, #optionsframework-wrap .widefat tfoot tr th, #optionsframework-wrap h3.dashboard-widget-title, #optionsframework-wrap h3.dashboard-widget-title span, #optionsframework-wrap h3.dashboard-widget-title small, #optionsframework-wrap .sidebar-name, #optionsframework-wrap #nav-menu-header, #optionsframework-wrap #nav-menu-footer, #optionsframework-wrap .menu-item-handle
+{
+	background:url("../images/head-bg.png") repeat-x scroll 0 0 #E8E8E8 !important; border-bottom:1px solid #E2E2E2 !important;
+}
+
+#optionsframework-wrap #optionsframework-nav a.nav-tab{background:url("../images/nav.png") repeat scroll 0 0 #434343; color:#fff; padding-left:10px; text-shadow:0 0 0;}
+
+#optionsframework-wrap #optionsframework-nav a.nav-tab-active{background:url("../images/nav-active.png") repeat scroll 0 0 #434343;}
+
+#optionsframework-wrap #optionsframework input{background:none repeat scroll 0 0 #FAFAFA; padding:6px; color:#666666; margin:0;}
+
+#optionsframework-wrap .upload_button, #optionsframework-wrap .button-primary.button-primary-top, #optionsframework-wrap .button-secondary{background:url("../images/green.png") repeat-x scroll 0 0 #A5CE66 !important; border-color:#ADC57B #99B769 #A1B685 !important; color:#5D7731 !important; border-radius:0 !important; padding: 0 10px !important; text-shadow:0 0 0 #fff !important; height:28px !important;  box-shadow:none !important;}
+
+#optionsframework-wrap .wp-color-result:after{background:url("../images/green.png") repeat-x scroll 0 0 #A5CE66 !important; border-color:#ADC57B #99B769 #A1B685 !important; color:#5D7731 !important;  text-shadow:0 0 0 #fff !important;}
+
+
+#optionsframework-wrap #optionsframework select{background:none repeat scroll 0 0 #FAFAFA !important; height:30px !important;}
+#optionsframework-wrap #optionsframework .section{padding:30px 10px !important; border-bottom:1px solid #DFDFDF !important;}
+
+#optionsframework-wrap #wpbody-content .metabox-holder{width:100%; display:inline-block; background:url("../images/panel-menu.png") repeat-y scroll 0 0 #FFF; padding:0 !important; margin-top:20px !important;}
+
+
+#optionsframework-wrap div.sidebar-name h3, #optionsframework-wrap #menu-management .nav-tab, #optionsframework-wrap #dashboard_plugins h5, #optionsframework-wrap a.rsswidget, #optionsframework-wrap #dashboard_right_now td.b, #optionsframework-wrap #dashboard-widgets h4, #optionsframework-wrap .tool-box .title, #optionsframework-wrap #poststuff h3, #optionsframework-wrap .metabox-holder h3, #optionsframework-wrap .pressthis a, #optionsframework-wrap #your-profile legend, #optionsframework-wrap .inline-edit-row fieldset span.title, #optionsframework-wrap .inline-edit-row fieldset span.checkbox-title, #optionsframework-wrap .tablenav .displaying-num, #optionsframework-wrap .widefat th, #optionsframework-wrap .quicktags, #optionsframework-wrap .search{font-family:sans-serif !important;}
+
+#optionsframework-wrap .button-primary.button-primary-top{margin-top:38px !important; margin-right:10px !important;}
+#optionsframework-wrap .wp-core-ui .button.button-small, #optionsframework-wrap .wp-core-ui .button-group.button-small .button{margin-left:10px !important; height:29px !important;}
+
+#optionsframework-wrap #setting-error-tgmpa:nth-child(2){display:none;}

@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: selfie\n"
+"POT-Creation-Date: 2016-03-05 21:31+0300\n"
+"PO-Revision-Date: 2016-03-05 21:32+0300\n"
+"Last-Translator: \n"
+"Language-Team: ProfTeam <support@profteamsolutions.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: F:\\SelfieMultiProject\\project\\SoftRejection\\05-"
+"Mar-2016\\selfie\n"
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/archive-product.php:111
+msgid "Page"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/archive-product.php:112
+msgid "of"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/archive.php:105
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/blog-left-sidebar.php:186
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/blog-right-sidebar.php:178
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/index.php:179
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/search.php:131
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/archive.php:106
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/blog-left-sidebar.php:187
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/blog-right-sidebar.php:179
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/index.php:180
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/search.php:132
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1351
+msgid "Selfie Team Members"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1354
+msgid "Content"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1360
+msgid "Please enter No.# of Team Members to display"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1363
+msgid "Number of Team Members to display"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1369
+msgid "Do you want to display a Read More link for each team member?"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:1372
+msgid "If you choose YES then a Read More link will be displayed"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:3552
+msgid "No products in the cart."
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:3561
+msgid "Subtotal"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:3562
+msgid "View Cart"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:3563
+msgid "Checkout"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4055
+msgid "Selfie News Widget"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4056
+msgid "Insert your News"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4073
+msgid "1"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4076
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4277
+msgid "Title:"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4080
+msgid "Number of posts:"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4258
+msgid "Selfie Socials Widget"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/functions.php:4259
+msgid "Insert your Socials"
+msgstr ""
+
+#: F:\SelfieMultiProject\project\SoftRejection\05-Mar-2016\selfie/woocommerce/single-product.php:62
+msgid "Related Products"
+msgstr ""

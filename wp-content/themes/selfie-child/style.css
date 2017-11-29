@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Selfie Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Selfie Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating will be much easier then.
+ Author:       ProfTeam
+ Author URI:   http://www.profteamsolutions.com
+ Template:     selfie
+ Version:      1.0.0
+ Tags: two-columns, left-sidebar, right-sidebar, custom-menu, full-width-template, theme-options, translation-ready
+ Text Domain:  selfie-child
+*/
+
+@import url("../selfie/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
