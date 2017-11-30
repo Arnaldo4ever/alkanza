@@ -46,8 +46,21 @@
 <body <?php body_class(); ?>>
   <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<span style="position: fixed; font-size: 16px; cursor:pointer;" onclick="openNav()">
-		<img src="http://localhost/alkanza/wp-content/uploads/2017/11/menu.png" style="width: 140px; position: relative; left: -65px;">Menú</span>
+	<span id="letra-menu" onclick="openNav()">
+		<svg version="1.1" id="icono" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 154 96" style="enable-background:new 0 0 154 96;" xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:#22CFC9;}
+			.st1{fill:#2F343A;}
+			.st2{fill:#238080;}
+		</style>
+		<g>
+			<rect x="33.2" y="15" class="st0" width="105.3" height="14.3"/>
+			<rect x="59.1" y="66.6" class="st1" width="79.3" height="14.3"/>
+			<rect x="15.6" y="40.8" class="st2" width="93.7" height="14.3"/>
+		</g>
+		</svg>
+		Menú</span>
   <?php
     wp_nav_menu( array( 'theme_location' => 'header-menu' , 'menu_class' => 'menu nav', 'fallback_cb' => 'selfie_menu_fall_back', 'walker' => new selfie_description_walker() ));
   ?>
