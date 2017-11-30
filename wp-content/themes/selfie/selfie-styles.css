@@ -443,7 +443,9 @@ footer {
     max-height: 75px;
     margin-top: -5px;
 }
-
+.navbar {
+    margin-top: 33px;
+}
 
 /*Tipo de letra para todo el tema*/
 .header .heading, input, textarea, .wpb_wrapper, .wpb_wrapper p, .wpb_wrapper p span:not(.fa), .wpb_wrapper span:not(.fa), .wpb_wrapper span p, .ui-widget, body {

@@ -45,8 +45,8 @@
 </body>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "35%";
-    document.getElementById("page-template").style.marginRight = "35%";
+    document.getElementById("mySidenav").style.width = "500px";
+    document.getElementById("page-template").style.marginRight = "500px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
