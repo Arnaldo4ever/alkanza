@@ -9,24 +9,34 @@
 ================================================== -->
 <?php get_header('nuevo'); ?>
 
+<!-- Page Title Section
+================================================== -->
+<?php
+	$string = get_the_title();
+	$pieces = explode(' ', $string);
+	$last_word = array_pop($pieces);
+
+	$string = str_replace($last_word, "", $string);
+?>
+
+
+<!-- Page Blog Body Start
+================================================== -->
+
 <div class="vc_row wpb_row vc_row-fluid make-margin-bottom-zero vc_custom_1451850512524" style="margin-top: 170px; display: flex; justify-content: center;">
   <div class="wpb_column vc_column_container vc_col-sm-12" style="background-color: #d6d6d6; border-radius: 10px; width: 90%; padding: 50px;">
     <div class="homepage-container-design-inner" style="width: 100%;">
       <div class="section-title  text-right">
-      				<span class="fa fa-coffee fa-2x" style="color: #999999;"></span>
-      				<h1 style="color: #999999;">OUR TEAM</h1>
+      		<h1 style="color: #999999;">Team</h1>
       </div>
 	<div class="wpb_text_column wpb_content_element  vc_custom_1451648241754">
 		<div class="wpb_wrapper">
-			<p class="selfie-subtitle-text999" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Duis ut lobortis nulla luctus et ultrices posuere cubilia,<br> Vestibulum ante ipsum primis in faucibus orci
-        luctus et ultrices posuere cubilia Curae
-      </p>
+			<p class="selfie-subtitle-text999" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit duis ut lobortis nulla luctus</p>
 		</div>
 	</div>
     </div>
     <div class="wpb_wrapper"><div class="homepage-container-design  " style="color:#666666;">
-			<div class="homepage-container-design-inner">
+			<div class="homepage-container-design-inner" style="max-width: 1140px;">
 <div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="wpb_wrapper"><div class=""><div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="member_item">
 							<div class="member_img">
