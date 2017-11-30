@@ -47,7 +47,7 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "500px";
     document.getElementById("page-template").style.marginRight = "500px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
 }
 
 function closeNav() {

@@ -46,6 +46,8 @@
 <body <?php body_class(); ?>>
   <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<span style="position: fixed; font-size: 16px; cursor:pointer;" onclick="openNav()">
+		<img src="http://localhost/alkanza/wp-content/uploads/2017/11/menu.png" style="width: 140px; position: relative; left: -65px;">Menú</span>
   <?php
     wp_nav_menu( array( 'theme_location' => 'header-menu' , 'menu_class' => 'menu nav', 'fallback_cb' => 'selfie_menu_fall_back', 'walker' => new selfie_description_walker() ));
   ?>
@@ -77,14 +79,6 @@
 					</div>
 
 
-					<!-- Mobile Menu Button -->
-					<a class="mobile-nav-button"><i class="fa fa-bars"></i></a>
-					<!-- Navigation Menu -->
-					<div class="nav-menu">
-						<div class="nav selfie-nav">
-              <span style="font-size: 16px; cursor:pointer; right: 15px; top: 30px; position: relative;" onclick="openNav()"><img src="http://localhost/alkanza/wp-content/uploads/2017/11/menu.png"> Menú</span>
-						</div>
-					</div>
 					<!-- End Navigation Menu -->
 				</div>
 			<!-- End Navigation Inner -->
