@@ -41,56 +41,11 @@
 			<div class="homepage-container-design-inner" style="max-width: 1140px;">
 <div class="vc_row wpb_row vc_inner vc_row-fluid">
   <div class="wpb_column vc_column_container vc_col-sm-12">
-    <div align="left">
-      <?php
-
-    // Ahora buscamos las categorías inferiores
-    $argumentos = array(
-      'child_of' => $categoria_id
-      );
-
-    // Creamos la matriz $categorias_hijas
-    $categorias_hijas = array();
-    $categorias_hijas = get_categories( $argumentos );
-
-    // Y las mostramos
-    if ( !empty( $categorias_hijas ) ) {
-      ?>
-      <?php
-      foreach( $categorias_hijas as $subcategoria ) {
-        ?>
-          <button class="btn btn-default filter-button" data-filter="<?php echo $subcategoria->cat_name; ?>"><?php echo $subcategoria->cat_name; ?></button> |
-      <?php
-       }
-      ?>
-      <?php
-    }
-  ?>
-      </div>
     <div class="wpb_wrapper">
       <div class="">
-        <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 99, 'order'=> 'ASC', 'orderby' => 'id' ); ?>
-        <?php $the_query = new WP_Query( $args ); ?>
-        <?php if ( $the_query->have_posts() ) while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-        <div class="col-md-3 col-sm-6 col-xs-12 filter <?php $category = get_the_category(); echo $category[0]->cat_name; ?>">
-							<div class="member_item">
-							<div class="member_img">
-								<img src="<?php the_post_thumbnail_url('full'); ?>" class="attachment-identity-team size-identity-team wp-post-image">
-							</div>
-							<div class="member_descr center">
-								<div class="member_name">
-									<?php the_title(); ?>
-								</div>
-								<div class="member_post">
-									  <?php $category = get_the_category(); echo $category[0]->cat_name; ?>
-								</div>
-								<div class="member_about">
-									 <?php the_content(); ?>
-								</div>
-							</div>
-							</div>
-							</div>
-            <?php endwhile; ?>
+
+
+
             </div>
           </div>
         </div>
