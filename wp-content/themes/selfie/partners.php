@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template - Team
+ * Template Name: Template - Partners
  */
 ?>
 
