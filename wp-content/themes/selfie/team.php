@@ -70,10 +70,14 @@
         <?php $args = array( 'post_type' => 'team', 'posts_per_page' => 99, 'order'=> 'DESC', 'orderby' => 'id' ); ?>
         <?php $the_query = new WP_Query( $args ); ?>
         <?php if ( $the_query->have_posts() ) while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-        <div class="col-md-3 col-sm-6 col-xs-12 filter <?php $category = get_the_category(); echo $category[0]->cat_name; ?>">
+          <?php
+            $post_id = get_the_ID(); //Trae el ID correcto.
+            $cat = the_category(",", $post_id);
+          ?>
+        <div class="col-md-3 col-sm-6 col-xs-12 filter <?php echo $cat; ?>">
 							<div class="member_item">
 							<div class="member_img">
-								<img src="<?php the_post_thumbnail(); ?>" class="attachment-identity-team size-identity-team wp-post-image">
+								<img src="<?php the_post_thumbnail_url('full'); ?>" class="attachment-identity-team size-identity-team wp-post-image">
 							</div>
 							<div class="member_descr center">
 								<div class="member_name">
