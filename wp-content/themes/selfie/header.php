@@ -12,6 +12,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
 	<!-- Get Variables and pull files
   ================================================== -->
@@ -43,43 +44,33 @@
 <!-- Body Section Started
 ================================================== -->
 <body <?php body_class(); ?>>
-
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<span id="letra-menu" onclick="openNav()">
+		<svg version="1.1" id="icono" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 154 96" style="enable-background:new 0 0 154 96;" xml:space="preserve">
+		<style type="text/css">
+			.st0{fill:#22CFC9;}
+			.st1{fill:#2F343A;}
+			.st2{fill:#238080;}
+		</style>
+		<g>
+			<rect x="33.2" y="15" class="st0" width="105.3" height="14.3"/>
+			<rect x="59.1" y="66.6" class="st1" width="79.3" height="14.3"/>
+			<rect x="15.6" y="40.8" class="st2" width="93.7" height="14.3"/>
+		</g>
+		</svg>
+		Menú</span>
+  <?php
+    wp_nav_menu( array( 'theme_location' => 'header-menu' , 'menu_class' => 'menu nav', 'fallback_cb' => 'selfie_menu_fall_back', 'walker' => new selfie_description_walker() ));
+  ?>
+</div>
 	<!-- Pre-loader -->
 	<div class="mask">
 		<div id="intro-loader">
 		</div>
 	</div>
 	<!-- End Pre-loader -->
-
-
-
-	<!-- Upper Navigation Bar -->
-		<div class="selfie-upper-nav">
-			<div class="container">
-				<div class="vc_col-sm-8">
-					<div class="selfie-upper-text"><?php echo esc_attr(selfie_get_option_value('top_header_desc')); ?></div>
-					<div class="selfie-upper-mail"><i class="fa fa-envelope fa-2x"></i><?php echo esc_attr(selfie_get_option_value('top_header_email')); ?></div>
-					<div class="selfie-upper-phone"><i class="fa fa-phone fa-2x"></i><?php echo esc_attr(selfie_get_option_value('top_header_phone')); ?></div>
-				</div>
-				<div class="vc_col-sm-4">
-					<?php
-						global $woocommerce;
-						if (class_exists('Woocommerce') && selfie_get_option_value('select_shoppingcart') == 'On') {
-					?>
-							<span class="dropdown cart-nav selfie-cart-list">
-								<a href="<?php echo esc_url($woocommerce->cart->get_cart_url()); ?>" class="selfie-cart-link dropdown-toggle identity-cart-contents" data-toggle="dropdown">
-									<i class="fa fa-shopping-cart"></i> <span class="label label-primary"><?php echo sprintf(_n('%d', '%d', $woocommerce->cart->cart_contents_count, "selfie"), $woocommerce->cart->cart_contents_count);?></span>
-								</a>
-								<div class="widget_shopping_cart_content dropdown cart-nav"><?php echo selfie_get_header_cart(); ?></div>
-							</span>
-					<?php } ?>
-					<?php if (!dynamic_sidebar('HeaderWidget')) { ?>
-						<?php dynamic_sidebar('HeaderWidget'); ?>
-					<?php } ?>
-				</div>
-			</div>
-		</div>	
-	<!-- Upper Navigation Bar -->
 
 
 	<!-- Navbar -->
@@ -101,16 +92,6 @@
 					</div>
 
 
-					<!-- Mobile Menu Button -->
-					<a class="mobile-nav-button"><i class="fa fa-bars"></i></a>
-					<!-- Navigation Menu -->
-					<div class="nav-menu">
-						<div class="nav selfie-nav">
-							<?php
-								wp_nav_menu( array( 'theme_location' => 'header-menu' , 'menu_class' => 'menu nav', 'fallback_cb' => 'selfie_menu_fall_back', 'walker' => new selfie_description_walker() ));
-							?>
-						</div>
-					</div>
 					<!-- End Navigation Menu -->
 				</div>
 			<!-- End Navigation Inner -->
@@ -118,11 +99,3 @@
 			<!-- End Navigation -->
 		</div>
 	<!-- End Navbar -->
-
-   <!-- === START SLIDER SECTION === -->
-	<?php if(is_front_page() && !is_home()){ ?>
-		<section id="home">
-			<?php echo do_shortcode(selfie_get_option_value('page_slider')); ?>
-		</section>
-	<?php } ?>
-	<!-- === END SLIDER SECTION === -->
