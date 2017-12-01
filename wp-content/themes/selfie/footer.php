@@ -25,8 +25,8 @@
 				<?php } ?>
 				</div>
 				<div class="vc_col-sm-1 selfie-copyrights item_left" style="border-left: 2px solid #999;">
-				<a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
-				<a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-twitter" aria-hidden="true"></i></a>
 				</div>
 
 			</div>
