@@ -49,9 +49,9 @@
                   <div class="vc_col-sm-4">
                   <h1 class="titulo">Keep in touch</h1>
                   <p class="selfie-subtitle-text999" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis pulvinar lacus, in porttitor erat accumsan in. Praesent tempus vel ipsum porttitor molestie. Aliquam mattis felis non purus semper.</p>
-                  <div class="selfie-copyrights item_left" style="border-left: 2px solid #999;">
-                    <a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="#"><i style="font-size: 22px;margin: 0px 5px;" class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <div class="item_left">
+                    <a href="#"><i style="font-size: 30px;margin: 0px 5px; color: #666666;" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><i style="font-size: 30px;margin: 0px 5px; color: #666666;" class="fa fa-twitter" aria-hidden="true"></i></a>
                   </div>
                   </div>
                   <div class="vc_col-sm-8">
@@ -107,7 +107,7 @@
   font-family: Raleway !important;
 }
 .btn.btn-primary {
-  border: 1px solid #22cfc9;
+  border: 1px solid #22cfc9 !important;
   border-radius: 10px;
   width: 100%;
   color: #22cfc9;
@@ -115,10 +115,10 @@
 .form-control {
     background-color: transparent;
     background-image: none;
-    border: 1px solid #2f343a;
+    border: 1px solid #666666;
     border-radius: 10px;
     box-shadow: none;
-    color: #2f343a;
+    color: #666666;
     display: block;
     font-size: 14px;
     height: 50px;
