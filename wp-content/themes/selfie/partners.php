@@ -44,6 +44,13 @@
     <div class="wpb_wrapper">
       <div class="">
 
+				<div style="position: relative;">
+				  <div style="position: absolute; left: 40px; top: 40px;">1</div>
+				  <div style="position: absolute; left: 80px; top: 90px;">2</div>
+					<div style="position: absolute; left: 10px; top: 90px;">3</div>
+					<div style="position: absolute; left: 180px; top: 90px;">4</div>
+				</div>
+<img src="http://localhost/alkanza/wp-content/uploads/2017/12/map.png">
 
 
             </div>
