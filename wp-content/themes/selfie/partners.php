@@ -45,12 +45,18 @@
       <div class="">
 
 				<div style="position: relative;">
-				  <div style="position: absolute; left: 40px; top: 40px;">1</div>
-				  <div style="position: absolute; left: 80px; top: 90px;">2</div>
-					<div style="position: absolute; left: 10px; top: 90px;">3</div>
-					<div style="position: absolute; left: 180px; top: 90px;">4</div>
+					<a class="tooltips1 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips2 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips3 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips4 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips5 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips6 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips7 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips8 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips9 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
+					<a class="tooltips10 tooltips" href="#"><div class="punto"></div><span>Bogotá</span></a>
 				</div>
-<img src="http://localhost/alkanza/wp-content/uploads/2017/12/map.png">
+				<img src="http://localhost/alkanza/wp-content/uploads/2017/12/map.png">
 
 
             </div>
@@ -63,6 +69,39 @@
 </div>
 </div>
 <style>
+/*tooltip*/
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #22CFC9;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 5px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px;
+  width: 0; height: 0;
+  border-right: 8px solid #22CFC9;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 1;
+  left: 100%;
+  top: 50%;
+  margin-top: -11px;
+  margin-left: 15px;
+  z-index: 999;
+}
+
 .btn {
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -108,8 +147,69 @@
     letter-spacing: 1px;
     text-transform: none;
 }
+.punto {
+	background: #22cfc9;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}
+a.tooltips1 {
+	position: absolute;
+	left: 22.5%;
+	margin-top: 15%;
+
+}
+a.tooltips2 {
+	position: absolute;
+  left: 24%;
+  margin-top: 21.5%;
+}
+a.tooltips3 {
+	position: absolute;
+  left: 31%;
+  margin-top: 23.5%;
+}
+a.tooltips4 {
+	position: absolute;
+	left: 30.5%;
+  margin-top: 27%;
+}
+a.tooltips5 {
+	position: absolute;
+  left: 37%;
+  margin-top: 28%;
+}
+a.tooltips6 {
+	position: absolute;
+	left: 47.5%;
+	margin-top: 10%;
+}
+a.tooltips7 {
+	position: absolute;
+	left: 54.5%;
+	margin-top: 29%;
+}
+a.tooltips8 {
+	position: absolute;
+	left: 76%;
+	margin-top: 23%;
+}
+a.tooltips9 {
+	position: absolute;
+	left: 77%;
+	margin-top: 19%;
+}
+a.tooltips10 {
+	position: absolute;
+	left: 81%;
+	margin-top: 18.5%;
+}
 </style>
 <script>
+jQuery(document).ready(function(){
+    jQuery('[data-toggle="tooltip"]').tooltip();
+});
+
 jQuery(document).ready(function(){
 
   jQuery(".filter-button").click(function(){
