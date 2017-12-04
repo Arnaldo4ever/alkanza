@@ -29,13 +29,15 @@
   <div class="wpb_column vc_column_container vc_col-sm-12" style="-webkit-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);-moz-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);background-color: #eff0f2; border-radius: 10px; width: 90%; padding: 15px 70px;">
     <div class="homepage-container-design-inner" style="width: 100%;">
       <div class="section-title  text-right" style="margin-bottom: -3px;">
-      		<h1 style="color: #313131; font-size: 62px !important; font-weight: 700; font-family: Raleway !important;">partners</h1>
+      		<h1 style="color: #313131; font-size: 62px !important; font-weight: 700; font-family: Raleway !important; text-transform: lowercase;"><?php the_title(); ?></h1>
       </div>
+			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 	<div class="wpb_text_column wpb_content_element  vc_custom_1451648241754">
 		<div class="wpb_wrapper">
-			<p class="selfie-subtitle-text999" style="text-align: right; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit duis ut lobortis nulla luctus</p>
+			<p class="selfie-subtitle-text999" style="text-align: right; font-size: 20px;"><?php the_field('parrafo_principal'); ?></p>
 		</div>
 	</div>
+	<?php endwhile; endif; ?>
     </div>
     <div class="wpb_wrapper"><div class="homepage-container-design  " style="color:#666666;">
 			<div class="homepage-container-design-inner" style="max-width: 1140px;">
