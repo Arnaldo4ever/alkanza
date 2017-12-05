@@ -40,15 +40,7 @@
 
 
 
-<style>
-.logo a {
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 230px;
-    height: 75px;
-}
-</style>
+
 <!-- Body Section Started
 ================================================== -->
 <body <?php body_class(); ?>>
@@ -90,7 +82,12 @@
 					<div class="logo">
 						<!-- Navigation Logo Link -->
 						<a href="<?php  echo esc_url(home_url( '/' )) ; ?>" title="<?php esc_attr(bloginfo( 'name' )) ?>" rel="home" class="scroll">
-
+							<?php if (selfie_get_option_value('select_display_logo') == 'On'){?>
+									<img src="<?php echo esc_url(selfie_get_option_value('theme_logo')); ?>" alt="logo" class="site_logo" />
+									<img src="<?php echo esc_url(selfie_get_option_value('theme_logo_sticky')); ?>" alt="logo" class="site_logo site_logo_sticky" />
+							<?php } else { ?>
+									<div><?php echo esc_attr(selfie_get_option_value('theme_site_logo_text')); ?></div>
+							<?php } ?>
 						</a>
 					</div>
 

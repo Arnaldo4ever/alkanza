@@ -42,6 +42,7 @@
 
 <style>
 .logo a {
+		background-image: url(<?php echo esc_url(selfie_get_option_value('theme_logo')); ?>);
     display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
