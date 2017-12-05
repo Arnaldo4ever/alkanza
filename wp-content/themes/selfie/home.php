@@ -50,8 +50,6 @@
 		</div>
 	</div>
 </section>
-
-
 <!-- Get Page Footer
 ================================================== -->
 <?php get_footer('nuevo'); ?>

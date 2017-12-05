@@ -450,6 +450,15 @@ footer {
 /*Tipo de letra para todo el tema*/
 .header .heading, input, textarea, .wpb_wrapper, .wpb_wrapper p, .wpb_wrapper p span:not(.fa), .wpb_wrapper span:not(.fa), .wpb_wrapper span p, .ui-widget, body {
     font-family: 'Raleway', sans-serif !important;
+}
+
+/*Color del logo*/
+.color-r {
+-webkit-filter: invert(1) hue-rotate(180deg) contrast(2);
+    filter: invert(1) hue-rotate(180deg) contrast(2);
+}
+.tipo-letra {
+	font-family: 'Raleway', sans-serif !important;
 } 
 	
 	
