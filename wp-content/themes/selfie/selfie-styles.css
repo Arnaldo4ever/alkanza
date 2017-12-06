@@ -1,9 +1,9 @@
 
 		
-		@font-face{font-family: entypo; src: url(http://localhost/alkanza/wp-content/themes/selfie/fonts/entypo.woff);}		
-		@font-face{font-family: entyposocial; src: url(http://localhost/alkanza/wp-content/themes/selfie/fonts/entypo-social.woff);}
-		@font-face{font-family: fontello; src: url(http://localhost/alkanza/wp-content/themes/selfie/fonts/fontello.woff);}
-		@font-face{font-family: fontawesome; src: url(http://localhost/alkanza/wp-content/themes/selfie/fonts/fontawesome-webfont.woff);}				
+		@font-face{font-family: entypo; src: url(http://digitalandes.co/alkanza/wp-content/themes/selfie/fonts/entypo.woff);}		
+		@font-face{font-family: entyposocial; src: url(http://digitalandes.co/alkanza/wp-content/themes/selfie/fonts/entypo-social.woff);}
+		@font-face{font-family: fontello; src: url(http://digitalandes.co/alkanza/wp-content/themes/selfie/fonts/fontello.woff);}
+		@font-face{font-family: fontawesome; src: url(http://digitalandes.co/alkanza/wp-content/themes/selfie/fonts/fontawesome-webfont.woff);}				
 		
 		.header .heading,
 		input, textarea,
@@ -444,7 +444,13 @@ footer {
     margin-top: -5px;
 }
 .navbar {
-    margin-top: 33px;
+    position: fixed;
+    min-height: 50px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    margin: 0 !important;
+    border: 1px solid transparent;
+
 }
 
 /*Tipo de letra para todo el tema*/

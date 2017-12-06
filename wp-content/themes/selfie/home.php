@@ -50,6 +50,14 @@
 		</div>
 	</div>
 </section>
+<style>
+footer {
+		position: absolute !important;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0) !important;
+}
+</style>
 <!-- Get Page Footer
 ================================================== -->
 <?php get_footer('nuevo'); ?>

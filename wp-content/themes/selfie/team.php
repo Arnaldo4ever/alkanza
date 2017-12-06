@@ -24,7 +24,7 @@
 <!-- Page Blog Body Start
 ================================================== -->
 
-<div class="vc_row wpb_row vc_row-fluid make-margin-bottom-zero vc_custom_1451850512524" style="margin-top: 170px; display: flex; justify-content: center;">
+<div class="vc_row wpb_row vc_row-fluid make-margin-bottom-zero vc_custom_1451850512524" style="margin-top: 155px; display: flex; justify-content: center;">
   <div class="wpb_column vc_column_container vc_col-sm-12" style="-webkit-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);-moz-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);background-color: #eff0f2; border-radius: 10px; width: 90%; padding: 15px 70px;">
     <div class="homepage-container-design-inner" style="width: 100%;">
       <div class="section-title  text-right" style="margin-bottom: -3px;">
@@ -57,7 +57,7 @@
       <?php
       foreach( $categorias_hijas as $subcategoria ) {
         ?>
-          <button class="btn btn-default filter-button" data-filter="<?php echo $subcategoria->cat_name; ?>"><?php echo $subcategoria->cat_name; ?></button> |
+          <button class="btn btn-default filter-button" data-filter="<?php get_category_by_slug( $slug ); ?>"><?php echo $subcategoria->cat_name; ?></button> |
       <?php
        }
       ?>
@@ -99,6 +99,9 @@
 </div>
 </div>
 <style>
+.navbar {
+    background: rgba(255, 255, 255, 0.5);
+}
 .btn {
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -143,6 +146,9 @@
     font-weight: 600 !important;
     letter-spacing: 1px;
     text-transform: none;
+}
+.member_descr {
+	top: 320px;
 }
 </style>
 <script>
