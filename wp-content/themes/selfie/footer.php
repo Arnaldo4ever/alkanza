@@ -123,6 +123,23 @@
 }
 </style>
 <script>
+jQuery(window).scroll(function() {
+  var wscroll = jQuery(this).scrollTop();
+
+  if (wscroll > 10) {
+    jQuery(".navbar.navbar-fixed-top.identity-user-logged").addClass("st");
+    jQuery(".logo a").addClass("lg");
+		jQuery(".navbar").addClass("br");
+		jQuery("#letra-menu").addClass("mn");
+  } else {
+    jQuery(".navbar.navbar-fixed-top.identity-user-logged").removeClass("st");
+    jQuery(".logo a").removeClass("lg");
+		jQuery(".navbar").removeClass("br");
+		jQuery("#letra-menu").removeClass("mn");
+  }
+
+});
+
 function openNav() {
 		document.getElementById("letra-menu").style.fontSize = "47px";
 		document.getElementById("letra-menu").style.top = "30px";

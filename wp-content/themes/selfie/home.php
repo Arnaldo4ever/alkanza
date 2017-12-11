@@ -43,7 +43,6 @@
 								<?php comments_template('', true); ?>
 						</div>
 						<?php } ?>
-
 					<?php endwhile; endif; ?>
 				</div>
 			</div>

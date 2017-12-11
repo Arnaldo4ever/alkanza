@@ -26,7 +26,7 @@
 ================================================== -->
 
 <div class="vc_row wpb_row vc_row-fluid make-margin-bottom-zero vc_custom_1451850512524" style="margin-top: 155px; display: flex; justify-content: center;">
-  <div class="wpb_column vc_column_container vc_col-sm-12" style="-webkit-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);-moz-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);background-color: #eff0f2; border-radius: 10px; width: 90%; padding: 15px 70px;">
+  <div class="wpb_column vc_column_container vc_col-sm-12" style="-webkit-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);-moz-box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);box-shadow: 0px 0px 20px 1px rgba(199,199,199,1);background-color: #eff0f2; border-radius: 10px; width: 90%; padding: 20px 70px 75px 70px;">
     <div class="homepage-container-design-inner" style="width: 100%;">
       <div class="section-title  text-right" style="margin-bottom: -3px;">
       		<h1 style="color: #313131; font-size: 62px !important; font-weight: 700; font-family: Raleway !important; text-transform: lowercase;"><?php the_title(); ?></h1>
@@ -96,7 +96,7 @@
 </div>
 <style>
 .navbar {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 1);
 }
 .titulo {
   transition: none;

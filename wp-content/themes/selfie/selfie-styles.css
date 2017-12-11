@@ -306,7 +306,35 @@
 			color: #ffffff !important;
 		}
 				
-		/*Custom style*/
+		/*menú fixed*/
+.st {
+   position: fixed !important;
+   transition: width 0.5s;
+   -webkit-transition: width 0.5s;
+}
+.lg {
+   background-size: 150px !important;
+   transition: width 0.5s;
+   -webkit-transition: width 0.5s;
+}
+.br {
+    height: 72px !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+   transition: width 0.5s;
+   -webkit-transition: width 0.5s;
+}
+.mn {
+    top: -10px !important;
+   transition: width 0.5s;
+   -webkit-transition: width 0.5s;
+}
+
+
+/*Custom style*/
+textarea.form-control {
+    min-height: 140px;
+}
 .logged-in .selfie-upper-nav {
     top: 32px;
     display: none;
@@ -399,7 +427,7 @@ footer {
     position: relative;
     width: 100%;
     bottom: -10px;
-    padding: 0 0 50px;
+    padding: 0 0 40px;
 }
 .selfie-footer-bottom {
     border-top: 0px solid #333333;
@@ -444,7 +472,7 @@ footer {
     margin-top: -5px;
 }
 .navbar {
-    position: fixed;
+    position: absolute;
     min-height: 50px;
     padding-top: 33px;
     padding-bottom: 20px;

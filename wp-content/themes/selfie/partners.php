@@ -40,7 +40,7 @@
 	<?php endwhile; endif; ?>
     </div>
     <div class="wpb_wrapper"><div class="homepage-container-design  " style="color:#666666;">
-			<div class="homepage-container-design-inner" style="max-width: 1140px;">
+			<div class="homepage-container-design-inner" style="max-width: 1400px;">
 <div class="vc_row wpb_row vc_inner vc_row-fluid">
   <div class="wpb_column vc_column_container vc_col-sm-12">
     <div class="wpb_wrapper">
@@ -72,7 +72,7 @@
 </div>
 <style>
 .navbar {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 1);
 }
 /*tooltip*/
 a.tooltips span {

@@ -100,7 +100,7 @@
 </div>
 <style>
 .navbar {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 1);
 }
 .btn {
     border-radius: 0px;
